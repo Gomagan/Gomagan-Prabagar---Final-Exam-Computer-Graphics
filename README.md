@@ -6,3 +6,4 @@ The hologram shader was added to the ghosts. Each ghost has a different color, b
 Scrolling Texture:
 I added the scrolling texture to the orbs. I implemented it by using the tiling and offset node and changing the offset overtime using the time node. I also use a float value called "slow" to modify the rate at which the orbs scroll. You can see the spinning effect from far because of their speed. I also set the surface type to transparent and multiplied the scrolling texture output with a float value so it has a minor transparency effect towards some areas to create more mystical vibe to the game.
 
+For the two additional shaders, I used bump mapping from the first half of the course, and the water shader from the second half of the course.
